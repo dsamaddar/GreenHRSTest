@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{127BFE97-703F-4AF3-AD77-733B2B788DD0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GreenHRSTest.My.MyApplication</StartupObject>
+    <RootNamespace>GreenHRSTest</RootNamespace>
+    <AssemblyName>GreenHRSTest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>81F3A63BED22BC2D0495699A96A65117FC06A994</ManifestCertificateThumbprint>
+    <ManifestKeyFile>GreenHRSTest_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\GreenHRSTest\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GreenHRSTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GreenHRSTest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\clsCanFormTest.vb" />
+    <Compile Include="App_Code\clsCanFormTestValues.vb" />
+    <Compile Include="App_Code\clsCreditFacilityForm.vb" />
+    <Compile Include="App_Code\clsIndividual.vb" />
+    <Compile Include="App_Code\clsOrganization.vb" />
+    <Compile Include="App_Code\clsPerInfFormAsset.vb" />
+    <Compile Include="App_Code\clsStory.vb" />
+    <Compile Include="App_Code\clsTypingTest.vb" />
+    <Compile Include="App_Code\clsUserMessage.vb" />
+    <Compile Include="App_Code\clsUserMessageDataAccess.vb" />
+    <Compile Include="App_Code\clsVoiceCapture.vb" />
+    <Compile Include="App_Code\clsVoiceTest.vb" />
+    <Compile Include="App_Code\Common.vb" />
+    <Compile Include="frmCreditFacilityFormAsset.Designer.vb">
+      <DependentUpon>frmCreditFacilityFormAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreditFacilityFormAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormTest.Designer.vb">
+      <DependentUpon>frmFormTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHomePage.Designer.vb">
+      <DependentUpon>frmHomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrgInformationForm.Designer.vb">
+      <DependentUpon>frmOrgInformationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrgInformationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerInformationForm.Designer.vb">
+      <DependentUpon>frmPerInformationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerInformationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonalInfFormAsset.Designer.vb">
+      <DependentUpon>frmPersonalInfFormAsset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonalInfFormAsset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTypingTest.Designer.vb">
+      <DependentUpon>frmTypingTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTypingTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoiceTest.Designer.vb">
+      <DependentUpon>frmVoiceTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoiceTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDITest.Designer.vb">
+      <DependentUpon>MDITest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDITest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCreditFacilityFormAsset.resx">
+      <DependentUpon>frmCreditFacilityFormAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFormTest.resx">
+      <DependentUpon>frmFormTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHomePage.resx">
+      <DependentUpon>frmHomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrgInformationForm.resx">
+      <DependentUpon>frmOrgInformationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerInformationForm.resx">
+      <DependentUpon>frmPerInformationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonalInfFormAsset.resx">
+      <DependentUpon>frmPersonalInfFormAsset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTypingTest.resx">
+      <DependentUpon>frmTypingTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoiceTest.resx">
+      <DependentUpon>frmVoiceTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDITest.resx">
+      <DependentUpon>MDITest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HRMLogo.png" />
+    <None Include="Resources\LoginBanner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgRecordingStarted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgStartRecording.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="app.config" />
+    <None Include="GreenHRSTest_TemporaryKey.pfx" />
+    <None Include="Resources\formfillin.ico" />
+    <None Include="Resources\favicon.ico" />
+    <Content Include="Resources\Banner.png" />
+    <None Include="Resources\BgHRLogo.jpg" />
+    <Content Include="Resources\HR Logo.jpg" />
+    <Content Include="Resources\imgLogin.ico" />
+    <Content Include="Resources\imgOrgInfForm.ico" />
+    <Content Include="Resources\imgPerInfForm.ico" />
+    <Content Include="Resources\imgPlay.jpeg" />
+    <Content Include="Resources\imgPlayTrans.png" />
+    <None Include="Resources\imgSettings.png" />
+    <None Include="Resources\imgSaveAudio.png" />
+    <Content Include="Resources\imgTest.png" />
+    <Content Include="Resources\OIF.jpg" />
+    <Content Include="Resources\ulclogo.png" />
+    <None Include="Resources\voicetest.ico" />
+    <None Include="Resources\typingtest.ico" />
+    <None Include="SqlCode\001. Store Input.sql" />
+    <None Include="SqlCode\002. Voice Capture.sql" />
+    <None Include="SqlCode\003. Typing Test.sql" />
+    <None Include="SqlCode\004. Accuracy Test.sql" />
+    <None Include="SqlCode\005. Typing Grading.sql" />
+    <None Include="SqlCode\006. Personal Information Form.sql" />
+    <None Include="SqlCode\007. Form Test.sql" />
+    <None Include="SqlCode\008. Organizational Information.sql" />
+    <None Include="SqlCode\009. Form Test Values.sql" />
+    <None Include="SqlCode\010. Assigning Form Test.sql" />
+    <None Include="SqlCode\011. Voice Rating.sql" />
+    <None Include="SqlCode\012. Credit Facility Form Info.sql" />
+    <None Include="SqlCode\013. Personal Information Form Asset.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

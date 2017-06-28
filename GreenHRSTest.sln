@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GreenHRSTest", "GreenHRSTest\GreenHRSTest.vbproj", "{127BFE97-703F-4AF3-AD77-733B2B788DD0}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GreenHRSTest\\GreenHRSTest.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = GreenHRSTest\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127BFE97-703F-4AF3-AD77-733B2B788DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127BFE97-703F-4AF3-AD77-733B2B788DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127BFE97-703F-4AF3-AD77-733B2B788DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127BFE97-703F-4AF3-AD77-733B2B788DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

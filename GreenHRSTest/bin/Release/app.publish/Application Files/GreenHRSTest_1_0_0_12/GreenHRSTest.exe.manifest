@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="GreenHRSTest.exe" version="1.0.0.12" publicKeyToken="17a05891de5047a6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GreenHRSTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GreenHRSTest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GreenHRSTest.exe" size="2310656">
+      <assemblyIdentity name="GreenHRSTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KikTATNp1qhgpkXOQFstfS1aKVI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="356352">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yGqAkJQhXwbYfldrh42js2PeYLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>po5PZ7IQVgTTycw1+iosgSoqG94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GreenHRSTest.exe.config" size="3899">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>c1j0lG2zgtqigbHTxr2tW44QcJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Banner.png" size="7470">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RpIDWqy+cfhPurQo6bMBtb2709g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HR Logo.jpg" size="713232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rvhEEHsIC7viZCHu9jjOzU5TcYE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgLogin.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OfcrHmCcuFFcZiTyk8OXlT+jDfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgOrgInfForm.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LiJlNMxHZNFk/Ns9fplfOdXf/o8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgPerInfForm.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oScaNhLNH0UG+nVZ/9MPTgdwsX8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgPlay.jpeg" size="33161">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L9e0atVbk1RBMk5jyZO0/Xz3MnE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgPlayTrans.png" size="111062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>E8tEiFrcRJPB18XOtCptOcyxO58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imgTest.png" size="6773">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UpJcBG4sRrdi3XvFJJqrMh3EnMo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OIF.jpg" size="213441">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vjvNDubBw2xcJgXXovHT0juHl7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ulclogo.png" size="7481">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zeeoXzLjBxmXSl2mv2RyM0O4jDY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ULC\dsamaddar" issuerKeyHash="e97365e5c980e37f5925fff271d9e2543339c560" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zUFpmb6QPZgNeTiGi6JN3vYX5Tk=</DigestValue></Reference></SignedInfo><SignatureValue>YHv/2twO+svH7CzvqWrTghts9hb7CmSy8iQb0LBTBRqojLr+4FtAv7C2WZM2w9lmn+93OiMVzHhBNDrcJoeOlFYCgPX/4E/kiKWi1frH5RwrLXdd9x1cEKji6gKwNrZB0QWi2KdNXoTCndnZK64K4o/8gZHyWckrwRqkO5P5CGQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v5wlbVsYio50g0GA/JsMNOyAwicXhpmaNUpcf2e2sUAMizj6PoTuuKhHVcOrS3eNIBBnWbjF7dg3wBmQyNkRVSj3SZO5+ikrgdo4z94Cqn+Y6Bh7BZy61fdDof68FJ+eMjHQdGMWnr7F6t+ZMUQJwI1hLbGJzOUBQ5vpP8Fv3TM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="39e517f6de4da28b8638790d983d90be996941cd" Description="" Url=""><as:assemblyIdentity name="GreenHRSTest.exe" version="1.0.0.12" publicKeyToken="17a05891de5047a6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ULC\dsamaddar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EY7NPely92gIs0/Ws31++AmF7ic=</DigestValue></Reference></SignedInfo><SignatureValue>OzHX8jEX8WhdpRDF9j/7497w6Rnf24c+FgxwVLL4VIY6Nl59x955fnfmQo51SoWiHCNod/TL83lNdOY0euafa1jeFcvBFSg2aeGmF8eqGVHSW8S2IjOrcTx5U8ZRhTVdFXiq+kMpcod7PN0R+s5Q8WIsirIBpprwzujKLnToEc8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v5wlbVsYio50g0GA/JsMNOyAwicXhpmaNUpcf2e2sUAMizj6PoTuuKhHVcOrS3eNIBBnWbjF7dg3wBmQyNkRVSj3SZO5+ikrgdo4z94Cqn+Y6Bh7BZy61fdDof68FJ+eMjHQdGMWnr7F6t+ZMUQJwI1hLbGJzOUBQ5vpP8Fv3TM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQN+tmSTXhmaVPihsvPtmp0TANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoAVQBMAEMAXABkAHMAYQBtAGEAZABkAGEAcjAeFw0xNTExMTkxMDM5MjZaFw0xNjExMTgxNjM5MjZaMCUxIzAhBgNVBAMeGgBVAEwAQwBcAGQAcwBhAG0AYQBkAGQAYQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/nCVtWxiKjnSDQYD8mww07IDCJxeGmZo1Slx/Z7axQAyLOPo+hO64qEdVw6tLd40gEGdZuMXt2DfAGZDI2RFVKPdJk7n6KSuB2jjP3gKqf5joGHsFnLrV90Oh/rwUn54yMdB0YxaevsXq35kxRAnAjWEtsYnM5QFDm+k/wW/dMwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABzvwkH7RR9IilJ2ISfXMmobU4FMOjdrgtOpvSVRM6dhK5p3ixP+2XlFTr4E6KlvCM3f/HMSMSBzDHTvb8rHxMZP/bZrFlg58hkzIkaoFkZA8KP0feMs/HUVzfwa0eF5qdde7aJwnn22IuZVCzsfUC+8u8JHBGSYOEx1sDDbLtZP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
